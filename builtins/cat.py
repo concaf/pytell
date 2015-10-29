@@ -10,6 +10,7 @@ def cat():
         for file_name in sys.argv[1:]:
             file_open = open(file_name, mode='r')
             print(file_open.read())
+# finally edited            
 
 if __name__ == "__main__":
     cat()
